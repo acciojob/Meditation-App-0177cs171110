@@ -1,41 +1,40 @@
 /*  your css code here. If applicable */
 
+/*  your css code here. If applicable */
 body {
+  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .vid-container {
   width: 100%;
-  margin-bottom: 20px;
+  height: 400px;
 }
 
 .player-container {
-  display: none;
+  margin-top: 20px;
 }
 
 .sound-picker {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.time-select button {
-  margin-right: 10px;
+.time-select {
+  margin-top: 20px;
 }
 
 .time-display {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .play {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
   padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  border: none;
   cursor: pointer;
-  border-radius: 8px;
 }
